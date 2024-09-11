@@ -18,6 +18,8 @@
 		AFD0EAC22C91059000BA3991 /* CoreAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAC12C91059000BA3991 /* CoreAPI */; };
 		AFD0EAC52C911C4100BA3991 /* BrandDetailsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAC42C911C4100BA3991 /* BrandDetailsFeature */; };
 		AFD0EAC82C9125E500BA3991 /* AppDependencyModule in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAC72C9125E500BA3991 /* AppDependencyModule */; };
+		AFD0EAD22C92279700BA3991 /* BrandRemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAD12C92279700BA3991 /* BrandRemoteImage */; };
+		AFD0EAD52C92293800BA3991 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAD42C92293800BA3991 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,7 @@
 		AFD0EABA2C90FE0800BA3991 /* BrandUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BrandUI; path = ../BrandUI; sourceTree = "<group>"; };
 		AFD0EAC32C911C1600BA3991 /* BrandDetailsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BrandDetailsFeature; path = ../BrandDetailsFeature; sourceTree = "<group>"; };
 		AFD0EAC62C9125D300BA3991 /* AppDependencyModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AppDependencyModule; path = ../AppDependencyModule; sourceTree = "<group>"; };
+		AFD0EACE2C9224AF00BA3991 /* BrandRemoteImage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BrandRemoteImage; path = ../BrandRemoteImage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +48,11 @@
 				AFD0EAC22C91059000BA3991 /* CoreAPI in Frameworks */,
 				AFD0EAC82C9125E500BA3991 /* AppDependencyModule in Frameworks */,
 				AFD0EAC02C91058C00BA3991 /* BrandUseCase in Frameworks */,
+				AFD0EAD52C92293800BA3991 /* Kingfisher in Frameworks */,
 				AFD0EABE2C91058700BA3991 /* BrandUI in Frameworks */,
 				AFD0EABC2C91057F00BA3991 /* BrandRepository in Frameworks */,
 				AFD0EAC52C911C4100BA3991 /* BrandDetailsFeature in Frameworks */,
+				AFD0EAD22C92279700BA3991 /* BrandRemoteImage in Frameworks */,
 				AFD0EAB92C90FD1F00BA3991 /* NetworkLayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +103,7 @@
 		AFD0EAB32C90FCE700BA3991 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AFD0EACE2C9224AF00BA3991 /* BrandRemoteImage */,
 				AFD0EABA2C90FE0800BA3991 /* BrandUI */,
 				AFD0EAB52C90FCE700BA3991 /* BrandRepository */,
 				AFD0EAB72C90FCE700BA3991 /* BrandUseCase */,
@@ -131,6 +137,8 @@
 				AFD0EAC12C91059000BA3991 /* CoreAPI */,
 				AFD0EAC42C911C4100BA3991 /* BrandDetailsFeature */,
 				AFD0EAC72C9125E500BA3991 /* AppDependencyModule */,
+				AFD0EAD12C92279700BA3991 /* BrandRemoteImage */,
+				AFD0EAD42C92293800BA3991 /* Kingfisher */,
 			);
 			productName = SallaChallenges;
 			productReference = AFD0EAA02C90FCBD00BA3991 /* SallaChallenges.app */;
@@ -160,6 +168,9 @@
 				Base,
 			);
 			mainGroup = AFD0EA972C90FCBD00BA3991;
+			packageReferences = (
+				AFD0EAD32C92293800BA3991 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = AFD0EAA12C90FCBD00BA3991 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -409,6 +420,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		AFD0EAD32C92293800BA3991 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		AFD0EAB82C90FD1F00BA3991 /* NetworkLayer */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -437,6 +459,15 @@
 		AFD0EAC72C9125E500BA3991 /* AppDependencyModule */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AppDependencyModule;
+		};
+		AFD0EAD12C92279700BA3991 /* BrandRemoteImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BrandRemoteImage;
+		};
+		AFD0EAD42C92293800BA3991 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFD0EAD32C92293800BA3991 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
