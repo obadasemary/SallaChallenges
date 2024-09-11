@@ -16,6 +16,8 @@
 		AFD0EABE2C91058700BA3991 /* BrandUI in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EABD2C91058700BA3991 /* BrandUI */; };
 		AFD0EAC02C91058C00BA3991 /* BrandUseCase in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EABF2C91058C00BA3991 /* BrandUseCase */; };
 		AFD0EAC22C91059000BA3991 /* CoreAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAC12C91059000BA3991 /* CoreAPI */; };
+		AFD0EAC52C911C4100BA3991 /* BrandDetailsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAC42C911C4100BA3991 /* BrandDetailsFeature */; };
+		AFD0EAC82C9125E500BA3991 /* AppDependencyModule in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAC72C9125E500BA3991 /* AppDependencyModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		AFD0EAB62C90FCE700BA3991 /* CoreAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoreAPI; path = ../CoreAPI; sourceTree = "<group>"; };
 		AFD0EAB72C90FCE700BA3991 /* BrandUseCase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BrandUseCase; path = ../BrandUseCase; sourceTree = "<group>"; };
 		AFD0EABA2C90FE0800BA3991 /* BrandUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BrandUI; path = ../BrandUI; sourceTree = "<group>"; };
+		AFD0EAC32C911C1600BA3991 /* BrandDetailsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BrandDetailsFeature; path = ../BrandDetailsFeature; sourceTree = "<group>"; };
+		AFD0EAC62C9125D300BA3991 /* AppDependencyModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AppDependencyModule; path = ../AppDependencyModule; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +43,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD0EAC22C91059000BA3991 /* CoreAPI in Frameworks */,
+				AFD0EAC82C9125E500BA3991 /* AppDependencyModule in Frameworks */,
 				AFD0EAC02C91058C00BA3991 /* BrandUseCase in Frameworks */,
 				AFD0EABE2C91058700BA3991 /* BrandUI in Frameworks */,
 				AFD0EABC2C91057F00BA3991 /* BrandRepository in Frameworks */,
+				AFD0EAC52C911C4100BA3991 /* BrandDetailsFeature in Frameworks */,
 				AFD0EAB92C90FD1F00BA3991 /* NetworkLayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +58,8 @@
 		AFD0EA972C90FCBD00BA3991 = {
 			isa = PBXGroup;
 			children = (
+				AFD0EAC62C9125D300BA3991 /* AppDependencyModule */,
+				AFD0EAC32C911C1600BA3991 /* BrandDetailsFeature */,
 				AFD0EAA22C90FCBD00BA3991 /* SallaChallenges */,
 				AFD0EAA12C90FCBD00BA3991 /* Products */,
 				AFD0EAB32C90FCE700BA3991 /* Frameworks */,
@@ -121,6 +129,8 @@
 				AFD0EABD2C91058700BA3991 /* BrandUI */,
 				AFD0EABF2C91058C00BA3991 /* BrandUseCase */,
 				AFD0EAC12C91059000BA3991 /* CoreAPI */,
+				AFD0EAC42C911C4100BA3991 /* BrandDetailsFeature */,
+				AFD0EAC72C9125E500BA3991 /* AppDependencyModule */,
 			);
 			productName = SallaChallenges;
 			productReference = AFD0EAA02C90FCBD00BA3991 /* SallaChallenges.app */;
@@ -419,6 +429,14 @@
 		AFD0EAC12C91059000BA3991 /* CoreAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CoreAPI;
+		};
+		AFD0EAC42C911C4100BA3991 /* BrandDetailsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BrandDetailsFeature;
+		};
+		AFD0EAC72C9125E500BA3991 /* AppDependencyModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppDependencyModule;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
