@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct SallaChallengesApp: App {
+    
+    @StateObject var appCoordinator = AppCoordinator(window: nil)
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppCoordinatorView(appCoordinator: appCoordinator)
+                .onAppear {
+                    appCoordinator.start()
+                }
         }
     }
 }
+

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AFD0EAA42C90FCBD00BA3991 /* SallaChallengesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0EAA32C90FCBD00BA3991 /* SallaChallengesApp.swift */; };
-		AFD0EAA62C90FCBD00BA3991 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0EAA52C90FCBD00BA3991 /* ContentView.swift */; };
 		AFD0EAA82C90FCC000BA3991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD0EAA72C90FCC000BA3991 /* Assets.xcassets */; };
 		AFD0EAAC2C90FCC000BA3991 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD0EAAB2C90FCC000BA3991 /* Preview Assets.xcassets */; };
 		AFD0EAB92C90FD1F00BA3991 /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAB82C90FD1F00BA3991 /* NetworkLayer */; };
@@ -20,12 +19,14 @@
 		AFD0EAC82C9125E500BA3991 /* AppDependencyModule in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAC72C9125E500BA3991 /* AppDependencyModule */; };
 		AFD0EAD22C92279700BA3991 /* BrandRemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAD12C92279700BA3991 /* BrandRemoteImage */; };
 		AFD0EAD52C92293800BA3991 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAD42C92293800BA3991 /* Kingfisher */; };
+		AFDF76EF2C930279005EECF3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF76EE2C930279005EECF3 /* AppCoordinator.swift */; };
+		AFDF76F12C93039F005EECF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF76F02C93039F005EECF3 /* SceneDelegate.swift */; };
+		AFDF76F32C9306ED005EECF3 /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF76F22C9306ED005EECF3 /* AppCoordinatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFD0EAA02C90FCBD00BA3991 /* SallaChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SallaChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD0EAA32C90FCBD00BA3991 /* SallaChallengesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SallaChallengesApp.swift; sourceTree = "<group>"; };
-		AFD0EAA52C90FCBD00BA3991 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AFD0EAA72C90FCC000BA3991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFD0EAA92C90FCC000BA3991 /* SallaChallenges.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SallaChallenges.entitlements; sourceTree = "<group>"; };
 		AFD0EAAB2C90FCC000BA3991 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -38,6 +39,9 @@
 		AFD0EAC32C911C1600BA3991 /* BrandDetailsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BrandDetailsFeature; path = ../BrandDetailsFeature; sourceTree = "<group>"; };
 		AFD0EAC62C9125D300BA3991 /* AppDependencyModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AppDependencyModule; path = ../AppDependencyModule; sourceTree = "<group>"; };
 		AFD0EACE2C9224AF00BA3991 /* BrandRemoteImage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BrandRemoteImage; path = ../BrandRemoteImage; sourceTree = "<group>"; };
+		AFDF76EE2C930279005EECF3 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AFDF76F02C93039F005EECF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFDF76F22C9306ED005EECF3 /* AppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				AFD0EAB22C90FCD700BA3991 /* Info.plist */,
+				AFDF76EE2C930279005EECF3 /* AppCoordinator.swift */,
+				AFDF76F22C9306ED005EECF3 /* AppCoordinatorView.swift */,
+				AFDF76F02C93039F005EECF3 /* SceneDelegate.swift */,
 				AFD0EAA32C90FCBD00BA3991 /* SallaChallengesApp.swift */,
-				AFD0EAA52C90FCBD00BA3991 /* ContentView.swift */,
 				AFD0EAA72C90FCC000BA3991 /* Assets.xcassets */,
 				AFD0EAA92C90FCC000BA3991 /* SallaChallenges.entitlements */,
 				AFD0EAAA2C90FCC000BA3991 /* Preview Content */,
@@ -197,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD0EAA62C90FCBD00BA3991 /* ContentView.swift in Sources */,
+				AFDF76EF2C930279005EECF3 /* AppCoordinator.swift in Sources */,
 				AFD0EAA42C90FCBD00BA3991 /* SallaChallengesApp.swift in Sources */,
+				AFDF76F12C93039F005EECF3 /* SceneDelegate.swift in Sources */,
+				AFDF76F32C9306ED005EECF3 /* AppCoordinatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
