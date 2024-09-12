@@ -9,7 +9,7 @@ import UIKit
 import AppDependencyModule
 import BrandUI
 import BrandDetailsFeature
-
+import ProductDetailsFeature
 
 /// Main application coordinator.
 final class AppCoordinator: ObservableObject {
@@ -35,19 +35,18 @@ final class AppCoordinator: ObservableObject {
         ) { destintation in
             switch destintation {
             case .openProductDetails(let productAdapter):
-                self.openProductDetails(productAdapter)
+                let view = ProductDetailsBuilder.build(
+                    productAdapters: productAdapter,
+                    navigationHandler: {
+                        _ in
+                    }
+                )
+                self.rootController.pushViewController(view, animated: true)
             }
         }
         
         self.rootController.viewControllers = [view]
         self.window?.rootViewController = rootController
         window?.makeKeyAndVisible()
-    }
-}
-
-private extension AppCoordinator {
-    func openProductDetails(_ productAdapter: ProductAdapter) {
-//        let view = MovieDetailsBuilder.build(movieAdapter: movieAdapter)
-//        self.rootController.pushViewController(view, animated: true)
     }
 }

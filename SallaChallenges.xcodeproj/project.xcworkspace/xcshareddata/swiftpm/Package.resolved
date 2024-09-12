@@ -1,5 +1,5 @@
 {
-  "originHash" : "ef11b86440105509f7c6a1b715fc2634675cad7188333a2d1ad8b98357bb07cc",
+  "originHash" : "dfdf49248f42ad0ea55a15d879a8cb63351890527a2a360418c443763950b710",
   "pins" : [
     {
       "identity" : "appdependencymodule",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/obadasemary/BrandDetailsFeature.git",
       "state" : {
-        "revision" : "a56f03d031fe514d5e1fa3b9fc9dc2d1416f2a8c",
-        "version" : "1.0.1"
+        "revision" : "05b5310b593173d5efa6a3b06cc1c3b69c832d05",
+        "version" : "1.0.5"
       }
     },
     {
@@ -51,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/obadasemary/BrandUseCase.git",
       "state" : {
-        "revision" : "5702758a9290d5b6a1185ceb090833b6a0e6c2d5",
-        "version" : "1.0.4"
+        "revision" : "7e0200f3c475aaef3c2521f3c30080eecd8e8483",
+        "version" : "1.0.7"
       }
     },
     {
@@ -80,6 +80,15 @@
       "state" : {
         "revision" : "a132fd09f0c3806f2489e5061fa1ef8fba81cfb1",
         "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "productdetailsfeature",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/obadasemary/ProductDetailsFeature.git",
+      "state" : {
+        "revision" : "44acc40ad78920e7230641ca16dc39067d53c812",
+        "version" : "1.0.1"
       }
     }
   ],

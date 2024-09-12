@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF48EFFC2C93842C00A07AAA /* ProductDetailsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = AF48EFFB2C93842C00A07AAA /* ProductDetailsFeature */; };
 		AFC4782D2C934A2A00DAC70E /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = AFC4782C2C934A2A00DAC70E /* NetworkLayer */; };
 		AFC478302C934A7F00DAC70E /* BrandUI in Frameworks */ = {isa = PBXBuildFile; productRef = AFC4782F2C934A7F00DAC70E /* BrandUI */; };
 		AFC478332C934A9A00DAC70E /* BrandRemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = AFC478322C934A9A00DAC70E /* BrandRemoteImage */; };
@@ -43,6 +44,7 @@
 			files = (
 				AFC478362C934AE000DAC70E /* CoreAPI in Frameworks */,
 				AFC478422C934F5D00DAC70E /* BrandDetailsFeature in Frameworks */,
+				AF48EFFC2C93842C00A07AAA /* ProductDetailsFeature in Frameworks */,
 				AFC478402C934E6900DAC70E /* AppDependencyModule in Frameworks */,
 				AFC478302C934A7F00DAC70E /* BrandUI in Frameworks */,
 				AFC478392C934AFE00DAC70E /* BrandRepository in Frameworks */,
@@ -129,6 +131,7 @@
 				AFC4783B2C934B1D00DAC70E /* BrandUseCase */,
 				AFC4783F2C934E6900DAC70E /* AppDependencyModule */,
 				AFC478412C934F5D00DAC70E /* BrandDetailsFeature */,
+				AF48EFFB2C93842C00A07AAA /* ProductDetailsFeature */,
 			);
 			productName = SallaChallenges;
 			productReference = AFD0EAA02C90FCBD00BA3991 /* SallaChallenges.app */;
@@ -168,6 +171,7 @@
 				AFC4783A2C934B1D00DAC70E /* XCRemoteSwiftPackageReference "BrandUseCase" */,
 				AFC4783D2C934B7F00DAC70E /* XCRemoteSwiftPackageReference "BrandDetailsFeature" */,
 				AFC4783E2C934E6900DAC70E /* XCRemoteSwiftPackageReference "AppDependencyModule" */,
+				AF48EFFA2C93842C00A07AAA /* XCRemoteSwiftPackageReference "ProductDetailsFeature" */,
 			);
 			productRefGroup = AFD0EAA12C90FCBD00BA3991 /* Products */;
 			projectDirPath = "";
@@ -421,6 +425,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		AF48EFFA2C93842C00A07AAA /* XCRemoteSwiftPackageReference "ProductDetailsFeature" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/obadasemary/ProductDetailsFeature.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		AFC4782B2C934A2A00DAC70E /* XCRemoteSwiftPackageReference "NetworkLayer" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/obadasemary/NetworkLayer.git";
@@ -496,6 +508,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		AF48EFFB2C93842C00A07AAA /* ProductDetailsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF48EFFA2C93842C00A07AAA /* XCRemoteSwiftPackageReference "ProductDetailsFeature" */;
+			productName = ProductDetailsFeature;
+		};
 		AFC4782C2C934A2A00DAC70E /* NetworkLayer */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AFC4782B2C934A2A00DAC70E /* XCRemoteSwiftPackageReference "NetworkLayer" */;
