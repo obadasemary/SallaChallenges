@@ -73,9 +73,9 @@ This flow demonstrates the robust and flexible structure designed for scalable i
 
 - Clone the repository:
 ```bash
-git clone https://github.com/obadasemary/sallachallenges.git
+git clone https://github.com/obadasemary/SallaChallenges.git
 
-cd sallachallenges
+cd SallaChallenges
 ```
 - Install dependencies (SPM):
 - Open the project workspace:
