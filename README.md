@@ -73,8 +73,9 @@ This flow demonstrates the robust and flexible structure designed for scalable i
 
 - Clone the repository:
 ```bash
-git clone https://github.com/yourusername/salla-ios-app.git
-cd salla-ios-app
+git clone https://github.com/obadasemary/sallachallenges.git
+
+cd sallachallenges
 ```
 - Install dependencies (SPM):
 - Open the project workspace:
