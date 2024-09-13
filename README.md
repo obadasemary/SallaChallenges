@@ -7,22 +7,22 @@ This repository demonstrates the architecture of the **Salla iOS Application**. 
 # Table of Contents
 
 - [Overview](#overview)
-- Architecture Overview
-- High-Level Design
-- Layers
-  - Domain Layer
-  - Data Layer
-  - Presentation Layer
-- Components
-- Deep Dive: Brand Details Flow
-- [Technology Stack](https://github.com/obadasemary/SallaChallenges?tab=readme-ov-file#technology-stack)
-- Setup
+- [Architecture Overview](#architecture-overview)
+- [High-Level Design](#high-level-design)
+- [Layers](#layers)
+  - [Domain Layer](#domain-layer)
+  - [Data Layer](#data-layer)
+  - [Presentation Layer](#presentation-layer)
+- [Components](#components)
+- [Deep Dive: Brand Details Flow](#deep-dive-brand-details-flow)
+- [Technology Stack](#technology-stack)
+- [Setup](#setup)
 
 # Architecture Overview
 
 Our architecture adheres to Clean Architecture principles, organized in layers that decouple responsibilities to improve testability and maintainability. The structure enables easy modifications, whether for business rules, UI updates, or changes in external data sources.
 
-High-Level Design
+# High-Level Design
 The architecture is divided into several components:
 
 - **App Module:** The root module responsible for initializing and coordinating various flows across the application.
@@ -34,6 +34,7 @@ The architecture is divided into several components:
 - **Persistence:** Manages local data storage using Core Data, Swift Data, or Realm.
 ![Salla Design Architecture](https://github.com/obadasemary/SallaChallenges/blob/main/Salla%20Design%20Architecture.png)
 ![Salla Design Architecture Interview](https://github.com/obadasemary/SallaChallenges/blob/main/Salla%20Design%20Architecture%20Interview.png)
+
 # Layers
 
 ### Domain Layer
