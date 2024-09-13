@@ -32,7 +32,8 @@ The architecture is divided into several components:
 - **Repository:** Acts as a mediator between the data sources (API, database) and the use cases.
 - **API Service:** Fetches data from the backend.
 - **Persistence:** Manages local data storage using Core Data, Swift Data, or Realm.
-
+![Salla Design Architecture](https://github.com/obadasemary/SallaChallenges/blob/main/Salla%20Design%20Architecture.png)
+![Salla Design Architecture Interview](https://github.com/obadasemary/SallaChallenges/blob/main/Salla%20Design%20Architecture%20Interview.png)
 # Layers
 
 ### Domain Layer
