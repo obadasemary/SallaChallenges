@@ -10,12 +10,12 @@ This repository demonstrates the architecture of the **Salla iOS Application**. 
 - Architecture Overview
 - High-Level Design
 - Layers
-- Domain Layer
-- Data Layer
-- Presentation Layer
+  - Domain Layer
+  - Data Layer
+  - Presentation Layer
 - Components
 - Deep Dive: Brand Details Flow
-- Technology Stack
+- [Technology Stack](https://github.com/obadasemary/SallaChallenges?tab=readme-ov-file#technology-stack)
 - Setup
 
 # Architecture Overview
