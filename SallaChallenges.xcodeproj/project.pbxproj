@@ -8,16 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AF48EFFC2C93842C00A07AAA /* ProductDetailsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = AF48EFFB2C93842C00A07AAA /* ProductDetailsFeature */; };
-		AFA999B42C9B859800C8507D /* AppDependencyModule in Resources */ = {isa = PBXBuildFile; fileRef = AFA999AA2C9B859800C8507D /* AppDependencyModule */; };
-		AFA999B52C9B859800C8507D /* BrandDetailsFeature in Resources */ = {isa = PBXBuildFile; fileRef = AFA999AB2C9B859800C8507D /* BrandDetailsFeature */; };
-		AFA999B62C9B859800C8507D /* BrandRemoteImage in Resources */ = {isa = PBXBuildFile; fileRef = AFA999AC2C9B859800C8507D /* BrandRemoteImage */; };
-		AFA999B72C9B859800C8507D /* BrandRepository in Resources */ = {isa = PBXBuildFile; fileRef = AFA999AD2C9B859800C8507D /* BrandRepository */; };
-		AFA999B82C9B859800C8507D /* BrandUI in Resources */ = {isa = PBXBuildFile; fileRef = AFA999AE2C9B859800C8507D /* BrandUI */; };
-		AFA999B92C9B859800C8507D /* BrandUseCase in Resources */ = {isa = PBXBuildFile; fileRef = AFA999AF2C9B859800C8507D /* BrandUseCase */; };
-		AFA999BA2C9B859800C8507D /* CoreAPI in Resources */ = {isa = PBXBuildFile; fileRef = AFA999B02C9B859800C8507D /* CoreAPI */; };
-		AFA999BB2C9B859800C8507D /* NetworkLayer in Resources */ = {isa = PBXBuildFile; fileRef = AFA999B12C9B859800C8507D /* NetworkLayer */; };
-		AFA999BC2C9B859800C8507D /* ProductDetailsFeature in Resources */ = {isa = PBXBuildFile; fileRef = AFA999B22C9B859800C8507D /* ProductDetailsFeature */; };
-		AFC4782D2C934A2A00DAC70E /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = AFC4782C2C934A2A00DAC70E /* NetworkLayer */; };
 		AFC478302C934A7F00DAC70E /* BrandUI in Frameworks */ = {isa = PBXBuildFile; productRef = AFC4782F2C934A7F00DAC70E /* BrandUI */; };
 		AFC478332C934A9A00DAC70E /* BrandRemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = AFC478322C934A9A00DAC70E /* BrandRemoteImage */; };
 		AFC478362C934AE000DAC70E /* CoreAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AFC478352C934AE000DAC70E /* CoreAPI */; };
@@ -35,15 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AFA999AA2C9B859800C8507D /* AppDependencyModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppDependencyModule; sourceTree = "<group>"; };
-		AFA999AB2C9B859800C8507D /* BrandDetailsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandDetailsFeature; sourceTree = "<group>"; };
-		AFA999AC2C9B859800C8507D /* BrandRemoteImage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandRemoteImage; sourceTree = "<group>"; };
-		AFA999AD2C9B859800C8507D /* BrandRepository */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandRepository; sourceTree = "<group>"; };
-		AFA999AE2C9B859800C8507D /* BrandUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandUI; sourceTree = "<group>"; };
-		AFA999AF2C9B859800C8507D /* BrandUseCase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandUseCase; sourceTree = "<group>"; };
-		AFA999B02C9B859800C8507D /* CoreAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreAPI; sourceTree = "<group>"; };
-		AFA999B12C9B859800C8507D /* NetworkLayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkLayer; sourceTree = "<group>"; };
-		AFA999B22C9B859800C8507D /* ProductDetailsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ProductDetailsFeature; sourceTree = "<group>"; };
+		AF9FCD002C9B9F870025939F /* AppDependencyModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppDependencyModule; sourceTree = "<group>"; };
+		AF9FCD012C9B9F870025939F /* BrandDetailsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandDetailsFeature; sourceTree = "<group>"; };
+		AF9FCD022C9B9F870025939F /* BrandRemoteImage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandRemoteImage; sourceTree = "<group>"; };
+		AF9FCD032C9B9F870025939F /* BrandRepository */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandRepository; sourceTree = "<group>"; };
+		AF9FCD042C9B9F870025939F /* BrandUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandUI; sourceTree = "<group>"; };
+		AF9FCD052C9B9F870025939F /* BrandUseCase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandUseCase; sourceTree = "<group>"; };
+		AF9FCD062C9B9F870025939F /* CoreAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreAPI; sourceTree = "<group>"; };
+		AF9FCD072C9B9F870025939F /* NetworkLayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkLayer; sourceTree = "<group>"; };
+		AF9FCD082C9B9F870025939F /* ProductDetailsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ProductDetailsFeature; sourceTree = "<group>"; };
 		AFD0EAA02C90FCBD00BA3991 /* SallaChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SallaChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD0EAA32C90FCBD00BA3991 /* SallaChallengesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SallaChallengesApp.swift; sourceTree = "<group>"; };
 		AFD0EAA72C90FCC000BA3991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,34 +59,32 @@
 				AFD0EAD52C92293800BA3991 /* Kingfisher in Frameworks */,
 				AFC478332C934A9A00DAC70E /* BrandRemoteImage in Frameworks */,
 				AFC4783C2C934B1D00DAC70E /* BrandUseCase in Frameworks */,
-				AFC4782D2C934A2A00DAC70E /* NetworkLayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFA999B32C9B859800C8507D /* Package */ = {
+		AF9FCD092C9B9F870025939F /* Package */ = {
 			isa = PBXGroup;
 			children = (
-				AFA999AA2C9B859800C8507D /* AppDependencyModule */,
-				AFA999AB2C9B859800C8507D /* BrandDetailsFeature */,
-				AFA999B22C9B859800C8507D /* ProductDetailsFeature */,
-				AFA999AC2C9B859800C8507D /* BrandRemoteImage */,
-				AFA999AE2C9B859800C8507D /* BrandUI */,
-				AFA999AF2C9B859800C8507D /* BrandUseCase */,
-				AFA999AD2C9B859800C8507D /* BrandRepository */,
-				AFA999B02C9B859800C8507D /* CoreAPI */,
-				AFA999B12C9B859800C8507D /* NetworkLayer */,
+				AF9FCD002C9B9F870025939F /* AppDependencyModule */,
+				AF9FCD012C9B9F870025939F /* BrandDetailsFeature */,
+				AF9FCD022C9B9F870025939F /* BrandRemoteImage */,
+				AF9FCD032C9B9F870025939F /* BrandRepository */,
+				AF9FCD042C9B9F870025939F /* BrandUI */,
+				AF9FCD052C9B9F870025939F /* BrandUseCase */,
+				AF9FCD062C9B9F870025939F /* CoreAPI */,
+				AF9FCD072C9B9F870025939F /* NetworkLayer */,
+				AF9FCD082C9B9F870025939F /* ProductDetailsFeature */,
 			);
-			name = Package;
-			path = ../Package;
+			path = Package;
 			sourceTree = "<group>";
 		};
 		AFD0EA972C90FCBD00BA3991 = {
 			isa = PBXGroup;
 			children = (
-				AFA999B32C9B859800C8507D /* Package */,
+				AF9FCD092C9B9F870025939F /* Package */,
 				AFD0EAA22C90FCBD00BA3991 /* SallaChallenges */,
 				AFD0EAA12C90FCBD00BA3991 /* Products */,
 				AFD0EAB32C90FCE700BA3991 /* Frameworks */,
@@ -159,7 +147,6 @@
 			name = SallaChallenges;
 			packageProductDependencies = (
 				AFD0EAD42C92293800BA3991 /* Kingfisher */,
-				AFC4782C2C934A2A00DAC70E /* NetworkLayer */,
 				AFC4782F2C934A7F00DAC70E /* BrandUI */,
 				AFC478322C934A9A00DAC70E /* BrandRemoteImage */,
 				AFC478352C934AE000DAC70E /* CoreAPI */,
@@ -198,7 +185,6 @@
 			mainGroup = AFD0EA972C90FCBD00BA3991;
 			packageReferences = (
 				AFD0EAD32C92293800BA3991 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				AFC4782B2C934A2A00DAC70E /* XCRemoteSwiftPackageReference "NetworkLayer" */,
 				AFC4782E2C934A7F00DAC70E /* XCRemoteSwiftPackageReference "BrandUI" */,
 				AFC478312C934A9A00DAC70E /* XCRemoteSwiftPackageReference "BrandRemoteImage" */,
 				AFC478342C934AE000DAC70E /* XCRemoteSwiftPackageReference "CoreAPI" */,
@@ -223,17 +209,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA999BA2C9B859800C8507D /* CoreAPI in Resources */,
-				AFA999B62C9B859800C8507D /* BrandRemoteImage in Resources */,
-				AFA999B52C9B859800C8507D /* BrandDetailsFeature in Resources */,
-				AFA999BC2C9B859800C8507D /* ProductDetailsFeature in Resources */,
-				AFA999B72C9B859800C8507D /* BrandRepository in Resources */,
 				AFD0EAAC2C90FCC000BA3991 /* Preview Assets.xcassets in Resources */,
-				AFA999B92C9B859800C8507D /* BrandUseCase in Resources */,
 				AFD0EAA82C90FCC000BA3991 /* Assets.xcassets in Resources */,
-				AFA999BB2C9B859800C8507D /* NetworkLayer in Resources */,
-				AFA999B82C9B859800C8507D /* BrandUI in Resources */,
-				AFA999B42C9B859800C8507D /* AppDependencyModule in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,14 +455,6 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		AFC4782B2C934A2A00DAC70E /* XCRemoteSwiftPackageReference "NetworkLayer" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/obadasemary/NetworkLayer.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.6;
-			};
-		};
 		AFC4782E2C934A7F00DAC70E /* XCRemoteSwiftPackageReference "BrandUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/obadasemary/BrandUI.git";
@@ -557,11 +526,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AF48EFFA2C93842C00A07AAA /* XCRemoteSwiftPackageReference "ProductDetailsFeature" */;
 			productName = ProductDetailsFeature;
-		};
-		AFC4782C2C934A2A00DAC70E /* NetworkLayer */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AFC4782B2C934A2A00DAC70E /* XCRemoteSwiftPackageReference "NetworkLayer" */;
-			productName = NetworkLayer;
 		};
 		AFC4782F2C934A7F00DAC70E /* BrandUI */ = {
 			isa = XCSwiftPackageProductDependency;
