@@ -25,15 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF9FCD002C9B9F870025939F /* AppDependencyModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppDependencyModule; sourceTree = "<group>"; };
-		AF9FCD012C9B9F870025939F /* BrandDetailsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandDetailsFeature; sourceTree = "<group>"; };
-		AF9FCD022C9B9F870025939F /* BrandRemoteImage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandRemoteImage; sourceTree = "<group>"; };
-		AF9FCD032C9B9F870025939F /* BrandRepository */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandRepository; sourceTree = "<group>"; };
-		AF9FCD042C9B9F870025939F /* BrandUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandUI; sourceTree = "<group>"; };
-		AF9FCD052C9B9F870025939F /* BrandUseCase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BrandUseCase; sourceTree = "<group>"; };
-		AF9FCD062C9B9F870025939F /* CoreAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreAPI; sourceTree = "<group>"; };
-		AF9FCD072C9B9F870025939F /* NetworkLayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkLayer; sourceTree = "<group>"; };
-		AF9FCD082C9B9F870025939F /* ProductDetailsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ProductDetailsFeature; sourceTree = "<group>"; };
 		AFD0EAA02C90FCBD00BA3991 /* SallaChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SallaChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD0EAA32C90FCBD00BA3991 /* SallaChallengesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SallaChallengesApp.swift; sourceTree = "<group>"; };
 		AFD0EAA72C90FCC000BA3991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +35,14 @@
 		AFDF76F02C93039F005EECF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AFDF76F22C9306ED005EECF3 /* AppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF9FCD202C9BA32E0025939F /* Package */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Package;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AFD0EA9D2C90FCBD00BA3991 /* Frameworks */ = {
@@ -65,26 +64,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF9FCD092C9B9F870025939F /* Package */ = {
-			isa = PBXGroup;
-			children = (
-				AF9FCD002C9B9F870025939F /* AppDependencyModule */,
-				AF9FCD012C9B9F870025939F /* BrandDetailsFeature */,
-				AF9FCD022C9B9F870025939F /* BrandRemoteImage */,
-				AF9FCD032C9B9F870025939F /* BrandRepository */,
-				AF9FCD042C9B9F870025939F /* BrandUI */,
-				AF9FCD052C9B9F870025939F /* BrandUseCase */,
-				AF9FCD062C9B9F870025939F /* CoreAPI */,
-				AF9FCD072C9B9F870025939F /* NetworkLayer */,
-				AF9FCD082C9B9F870025939F /* ProductDetailsFeature */,
-			);
-			path = Package;
-			sourceTree = "<group>";
-		};
 		AFD0EA972C90FCBD00BA3991 = {
 			isa = PBXGroup;
 			children = (
-				AF9FCD092C9B9F870025939F /* Package */,
+				AF9FCD202C9BA32E0025939F /* Package */,
 				AFD0EAA22C90FCBD00BA3991 /* SallaChallenges */,
 				AFD0EAA12C90FCBD00BA3991 /* Products */,
 				AFD0EAB32C90FCE700BA3991 /* Frameworks */,
