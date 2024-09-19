@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF48EFFC2C93842C00A07AAA /* ProductDetailsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = AF48EFFB2C93842C00A07AAA /* ProductDetailsFeature */; };
-		AFC478302C934A7F00DAC70E /* BrandUI in Frameworks */ = {isa = PBXBuildFile; productRef = AFC4782F2C934A7F00DAC70E /* BrandUI */; };
-		AFC478332C934A9A00DAC70E /* BrandRemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = AFC478322C934A9A00DAC70E /* BrandRemoteImage */; };
-		AFC478362C934AE000DAC70E /* CoreAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AFC478352C934AE000DAC70E /* CoreAPI */; };
-		AFC478392C934AFE00DAC70E /* BrandRepository in Frameworks */ = {isa = PBXBuildFile; productRef = AFC478382C934AFE00DAC70E /* BrandRepository */; };
-		AFC4783C2C934B1D00DAC70E /* BrandUseCase in Frameworks */ = {isa = PBXBuildFile; productRef = AFC4783B2C934B1D00DAC70E /* BrandUseCase */; };
-		AFC478402C934E6900DAC70E /* AppDependencyModule in Frameworks */ = {isa = PBXBuildFile; productRef = AFC4783F2C934E6900DAC70E /* AppDependencyModule */; };
-		AFC478422C934F5D00DAC70E /* BrandDetailsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = AFC478412C934F5D00DAC70E /* BrandDetailsFeature */; };
+		AF9FCD5A2C9BAF5F0025939F /* CoreAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FCD592C9BAF5F0025939F /* CoreAPI */; };
+		AF9FCD5D2C9BAFC50025939F /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FCD5C2C9BAFC50025939F /* NetworkLayer */; };
+		AF9FCD602C9BB1890025939F /* BrandUseCase in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FCD5F2C9BB1890025939F /* BrandUseCase */; };
+		AF9FCD632C9BB1A10025939F /* BrandRepository in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FCD622C9BB1A10025939F /* BrandRepository */; };
+		AF9FCD662C9BB1B80025939F /* BrandRemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FCD652C9BB1B80025939F /* BrandRemoteImage */; };
+		AF9FCD692C9BB1C60025939F /* BrandUI in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FCD682C9BB1C60025939F /* BrandUI */; };
+		AF9FCD6C2C9BB1DE0025939F /* AppDependencyModule in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FCD6B2C9BB1DE0025939F /* AppDependencyModule */; };
+		AF9FCD6F2C9BB1EE0025939F /* BrandDetailsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FCD6E2C9BB1EE0025939F /* BrandDetailsFeature */; };
+		AF9FCD722C9BB2040025939F /* ProductDetailsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FCD712C9BB2040025939F /* ProductDetailsFeature */; };
 		AFD0EAA42C90FCBD00BA3991 /* SallaChallengesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0EAA32C90FCBD00BA3991 /* SallaChallengesApp.swift */; };
 		AFD0EAA82C90FCC000BA3991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD0EAA72C90FCC000BA3991 /* Assets.xcassets */; };
 		AFD0EAAC2C90FCC000BA3991 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD0EAAB2C90FCC000BA3991 /* Preview Assets.xcassets */; };
@@ -50,15 +51,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC478362C934AE000DAC70E /* CoreAPI in Frameworks */,
-				AFC478422C934F5D00DAC70E /* BrandDetailsFeature in Frameworks */,
-				AF48EFFC2C93842C00A07AAA /* ProductDetailsFeature in Frameworks */,
-				AFC478402C934E6900DAC70E /* AppDependencyModule in Frameworks */,
-				AFC478302C934A7F00DAC70E /* BrandUI in Frameworks */,
-				AFC478392C934AFE00DAC70E /* BrandRepository in Frameworks */,
+				AF9FCD602C9BB1890025939F /* BrandUseCase in Frameworks */,
+				AF9FCD6F2C9BB1EE0025939F /* BrandDetailsFeature in Frameworks */,
+				AF9FCD722C9BB2040025939F /* ProductDetailsFeature in Frameworks */,
+				AF9FCD6C2C9BB1DE0025939F /* AppDependencyModule in Frameworks */,
+				AF9FCD632C9BB1A10025939F /* BrandRepository in Frameworks */,
+				AF9FCD5D2C9BAFC50025939F /* NetworkLayer in Frameworks */,
+				AF9FCD5A2C9BAF5F0025939F /* CoreAPI in Frameworks */,
+				AF9FCD662C9BB1B80025939F /* BrandRemoteImage in Frameworks */,
+				AF9FCD692C9BB1C60025939F /* BrandUI in Frameworks */,
 				AFD0EAD52C92293800BA3991 /* Kingfisher in Frameworks */,
-				AFC478332C934A9A00DAC70E /* BrandRemoteImage in Frameworks */,
-				AFC4783C2C934B1D00DAC70E /* BrandUseCase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +149,15 @@
 			name = SallaChallenges;
 			packageProductDependencies = (
 				AFD0EAD42C92293800BA3991 /* Kingfisher */,
-				AFC4782F2C934A7F00DAC70E /* BrandUI */,
-				AFC478322C934A9A00DAC70E /* BrandRemoteImage */,
-				AFC478352C934AE000DAC70E /* CoreAPI */,
-				AFC478382C934AFE00DAC70E /* BrandRepository */,
-				AFC4783B2C934B1D00DAC70E /* BrandUseCase */,
-				AFC4783F2C934E6900DAC70E /* AppDependencyModule */,
-				AFC478412C934F5D00DAC70E /* BrandDetailsFeature */,
-				AF48EFFB2C93842C00A07AAA /* ProductDetailsFeature */,
+				AF9FCD592C9BAF5F0025939F /* CoreAPI */,
+				AF9FCD5C2C9BAFC50025939F /* NetworkLayer */,
+				AF9FCD5F2C9BB1890025939F /* BrandUseCase */,
+				AF9FCD622C9BB1A10025939F /* BrandRepository */,
+				AF9FCD652C9BB1B80025939F /* BrandRemoteImage */,
+				AF9FCD682C9BB1C60025939F /* BrandUI */,
+				AF9FCD6B2C9BB1DE0025939F /* AppDependencyModule */,
+				AF9FCD6E2C9BB1EE0025939F /* BrandDetailsFeature */,
+				AF9FCD712C9BB2040025939F /* ProductDetailsFeature */,
 			);
 			productName = SallaChallenges;
 			productReference = AFD0EAA02C90FCBD00BA3991 /* SallaChallenges.app */;
@@ -185,14 +188,15 @@
 			mainGroup = AFD0EA972C90FCBD00BA3991;
 			packageReferences = (
 				AFD0EAD32C92293800BA3991 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				AFC4782E2C934A7F00DAC70E /* XCRemoteSwiftPackageReference "BrandUI" */,
-				AFC478312C934A9A00DAC70E /* XCRemoteSwiftPackageReference "BrandRemoteImage" */,
-				AFC478342C934AE000DAC70E /* XCRemoteSwiftPackageReference "CoreAPI" */,
-				AFC478372C934AFE00DAC70E /* XCRemoteSwiftPackageReference "BrandRepository" */,
-				AFC4783A2C934B1D00DAC70E /* XCRemoteSwiftPackageReference "BrandUseCase" */,
-				AFC4783D2C934B7F00DAC70E /* XCRemoteSwiftPackageReference "BrandDetailsFeature" */,
-				AFC4783E2C934E6900DAC70E /* XCRemoteSwiftPackageReference "AppDependencyModule" */,
-				AF48EFFA2C93842C00A07AAA /* XCRemoteSwiftPackageReference "ProductDetailsFeature" */,
+				AF9FCD582C9BAF5F0025939F /* XCLocalSwiftPackageReference "Packages/CoreAPI" */,
+				AF9FCD5B2C9BAFC50025939F /* XCLocalSwiftPackageReference "Packages/NetworkLayer" */,
+				AF9FCD5E2C9BB1890025939F /* XCLocalSwiftPackageReference "Packages/BrandUseCase" */,
+				AF9FCD612C9BB1A10025939F /* XCLocalSwiftPackageReference "Packages/BrandRepository" */,
+				AF9FCD642C9BB1B80025939F /* XCLocalSwiftPackageReference "Packages/BrandRemoteImage" */,
+				AF9FCD672C9BB1C60025939F /* XCLocalSwiftPackageReference "Packages/BrandUI" */,
+				AF9FCD6A2C9BB1DE0025939F /* XCLocalSwiftPackageReference "Packages/AppDependencyModule" */,
+				AF9FCD6D2C9BB1EE0025939F /* XCLocalSwiftPackageReference "Packages/BrandDetailsFeature" */,
+				AF9FCD702C9BB2040025939F /* XCLocalSwiftPackageReference "Packages/ProductDetailsFeature" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AFD0EAA12C90FCBD00BA3991 /* Products */;
@@ -446,71 +450,46 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		AF9FCD582C9BAF5F0025939F /* XCLocalSwiftPackageReference "Packages/CoreAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CoreAPI;
+		};
+		AF9FCD5B2C9BAFC50025939F /* XCLocalSwiftPackageReference "Packages/NetworkLayer" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/NetworkLayer;
+		};
+		AF9FCD5E2C9BB1890025939F /* XCLocalSwiftPackageReference "Packages/BrandUseCase" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/BrandUseCase;
+		};
+		AF9FCD612C9BB1A10025939F /* XCLocalSwiftPackageReference "Packages/BrandRepository" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/BrandRepository;
+		};
+		AF9FCD642C9BB1B80025939F /* XCLocalSwiftPackageReference "Packages/BrandRemoteImage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/BrandRemoteImage;
+		};
+		AF9FCD672C9BB1C60025939F /* XCLocalSwiftPackageReference "Packages/BrandUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/BrandUI;
+		};
+		AF9FCD6A2C9BB1DE0025939F /* XCLocalSwiftPackageReference "Packages/AppDependencyModule" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/AppDependencyModule;
+		};
+		AF9FCD6D2C9BB1EE0025939F /* XCLocalSwiftPackageReference "Packages/BrandDetailsFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/BrandDetailsFeature;
+		};
+		AF9FCD702C9BB2040025939F /* XCLocalSwiftPackageReference "Packages/ProductDetailsFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/ProductDetailsFeature;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
-		AF48EFFA2C93842C00A07AAA /* XCRemoteSwiftPackageReference "ProductDetailsFeature" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/obadasemary/ProductDetailsFeature.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		AFC4782E2C934A7F00DAC70E /* XCRemoteSwiftPackageReference "BrandUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/obadasemary/BrandUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
-			};
-		};
-		AFC478312C934A9A00DAC70E /* XCRemoteSwiftPackageReference "BrandRemoteImage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/obadasemary/BrandRemoteImage.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		AFC478342C934AE000DAC70E /* XCRemoteSwiftPackageReference "CoreAPI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/obadasemary/CoreAPI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
-			};
-		};
-		AFC478372C934AFE00DAC70E /* XCRemoteSwiftPackageReference "BrandRepository" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/obadasemary/BrandRepository.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
-			};
-		};
-		AFC4783A2C934B1D00DAC70E /* XCRemoteSwiftPackageReference "BrandUseCase" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/obadasemary/BrandUseCase.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.3;
-			};
-		};
-		AFC4783D2C934B7F00DAC70E /* XCRemoteSwiftPackageReference "BrandDetailsFeature" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/obadasemary/BrandDetailsFeature.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		AFC4783E2C934E6900DAC70E /* XCRemoteSwiftPackageReference "AppDependencyModule" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/obadasemary/AppDependencyModule.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
-			};
-		};
 		AFD0EAD32C92293800BA3991 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -522,45 +501,41 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AF48EFFB2C93842C00A07AAA /* ProductDetailsFeature */ = {
+		AF9FCD592C9BAF5F0025939F /* CoreAPI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AF48EFFA2C93842C00A07AAA /* XCRemoteSwiftPackageReference "ProductDetailsFeature" */;
-			productName = ProductDetailsFeature;
-		};
-		AFC4782F2C934A7F00DAC70E /* BrandUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AFC4782E2C934A7F00DAC70E /* XCRemoteSwiftPackageReference "BrandUI" */;
-			productName = BrandUI;
-		};
-		AFC478322C934A9A00DAC70E /* BrandRemoteImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AFC478312C934A9A00DAC70E /* XCRemoteSwiftPackageReference "BrandRemoteImage" */;
-			productName = BrandRemoteImage;
-		};
-		AFC478352C934AE000DAC70E /* CoreAPI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AFC478342C934AE000DAC70E /* XCRemoteSwiftPackageReference "CoreAPI" */;
 			productName = CoreAPI;
 		};
-		AFC478382C934AFE00DAC70E /* BrandRepository */ = {
+		AF9FCD5C2C9BAFC50025939F /* NetworkLayer */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AFC478372C934AFE00DAC70E /* XCRemoteSwiftPackageReference "BrandRepository" */;
-			productName = BrandRepository;
+			productName = NetworkLayer;
 		};
-		AFC4783B2C934B1D00DAC70E /* BrandUseCase */ = {
+		AF9FCD5F2C9BB1890025939F /* BrandUseCase */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AFC4783A2C934B1D00DAC70E /* XCRemoteSwiftPackageReference "BrandUseCase" */;
 			productName = BrandUseCase;
 		};
-		AFC4783F2C934E6900DAC70E /* AppDependencyModule */ = {
+		AF9FCD622C9BB1A10025939F /* BrandRepository */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AFC4783E2C934E6900DAC70E /* XCRemoteSwiftPackageReference "AppDependencyModule" */;
+			productName = BrandRepository;
+		};
+		AF9FCD652C9BB1B80025939F /* BrandRemoteImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BrandRemoteImage;
+		};
+		AF9FCD682C9BB1C60025939F /* BrandUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BrandUI;
+		};
+		AF9FCD6B2C9BB1DE0025939F /* AppDependencyModule */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = AppDependencyModule;
 		};
-		AFC478412C934F5D00DAC70E /* BrandDetailsFeature */ = {
+		AF9FCD6E2C9BB1EE0025939F /* BrandDetailsFeature */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AFC4783D2C934B7F00DAC70E /* XCRemoteSwiftPackageReference "BrandDetailsFeature" */;
 			productName = BrandDetailsFeature;
+		};
+		AF9FCD712C9BB2040025939F /* ProductDetailsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProductDetailsFeature;
 		};
 		AFD0EAD42C92293800BA3991 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
