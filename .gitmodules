@@ -1,27 +1,27 @@
 [submodule "Packages/NetworkLayer"]
 	path = Packages/NetworkLayer
 	url = https://github.com/obadasemary/NetworkLayer
-[submodule "CoreAPI"]
-	path = CoreAPI
+[submodule "Packages/CoreAPI"]
+	path = Packages/CoreAPI
 	url = https://github.com/obadasemary/CoreAPI
-[submodule "BrandUseCase"]
-	path = BrandUseCase
+[submodule "Packages/BrandUseCase"]
+	path = Packages/BrandUseCase
 	url = https://github.com/obadasemary/BrandUseCase
-[submodule "BrandRepository"]
-	path = BrandRepository
+[submodule "Packages/BrandRepository"]
+	path = Packages/BrandRepository
 	url = https://github.com/obadasemary/BrandRepository
-[submodule "BrandRemoteImage"]
-	path = BrandRemoteImage
+[submodule "Packages/BrandRemoteImage"]
+	path = Packages/BrandRemoteImage
 	url = https://github.com/obadasemary/BrandRemoteImage
-[submodule "AppDependencyModule"]
-	path = AppDependencyModule
+[submodule "Packages/AppDependencyModule"]
+	path = Packages/AppDependencyModule
 	url = https://github.com/obadasemary/AppDependencyModule
-[submodule "BrandUI"]
-	path = BrandUI
+[submodule "Packages/BrandUI"]
+	path = Packages/BrandUI
 	url = https://github.com/obadasemary/BrandUI
-[submodule "BrandDetailsFeature"]
-	path = BrandDetailsFeature
+[submodule "Packages/BrandDetailsFeature"]
+	path = Packages/BrandDetailsFeature
 	url = https://github.com/obadasemary/BrandDetailsFeature
-[submodule "ProductDetailsFeature"]
-	path = ProductDetailsFeature
+[submodule "Packages/ProductDetailsFeature"]
+	path = Packages/ProductDetailsFeature
 	url = https://github.com/obadasemary/ProductDetailsFeature
