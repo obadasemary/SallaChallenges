@@ -4,3 +4,24 @@
 [submodule "CoreAPI"]
 	path = CoreAPI
 	url = https://github.com/obadasemary/CoreAPI
+[submodule "BrandUseCase"]
+	path = BrandUseCase
+	url = https://github.com/obadasemary/BrandUseCase
+[submodule "BrandRepository"]
+	path = BrandRepository
+	url = https://github.com/obadasemary/BrandRepository
+[submodule "BrandRemoteImage"]
+	path = BrandRemoteImage
+	url = https://github.com/obadasemary/BrandRemoteImage
+[submodule "AppDependencyModule"]
+	path = AppDependencyModule
+	url = https://github.com/obadasemary/AppDependencyModule
+[submodule "BrandUI"]
+	path = BrandUI
+	url = https://github.com/obadasemary/BrandUI
+[submodule "BrandDetailsFeature"]
+	path = BrandDetailsFeature
+	url = https://github.com/obadasemary/BrandDetailsFeature
+[submodule "ProductDetailsFeature"]
+	path = ProductDetailsFeature
+	url = https://github.com/obadasemary/ProductDetailsFeature
