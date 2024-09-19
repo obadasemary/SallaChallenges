@@ -1,3 +1,6 @@
 [submodule "Packages/NetworkLayer"]
 	path = Packages/NetworkLayer
 	url = https://github.com/obadasemary/NetworkLayer
+[submodule "CoreAPI"]
+	path = CoreAPI
+	url = https://github.com/obadasemary/CoreAPI
