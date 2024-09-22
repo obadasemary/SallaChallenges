@@ -77,9 +77,9 @@ git clone https://github.com/obadasemary/SallaChallenges.git
 
 cd SallaChallenges
 ```
-- Install dependencies (SPM):
-- Open the project workspace:
-- Build and run the project on your simulator or device:
+- Install dependencies (SPM)
+- Open the project workspace
+- Build and run the project on your simulator or device
 
 # Conclusion
 
