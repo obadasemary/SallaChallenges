@@ -20,6 +20,7 @@
 		AFD0EAA82C90FCC000BA3991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD0EAA72C90FCC000BA3991 /* Assets.xcassets */; };
 		AFD0EAAC2C90FCC000BA3991 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD0EAAB2C90FCC000BA3991 /* Preview Assets.xcassets */; };
 		AFD0EAD52C92293800BA3991 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AFD0EAD42C92293800BA3991 /* Kingfisher */; };
+		AFDCDB832E4F83D300716E8B /* SUIRouting in Frameworks */ = {isa = PBXBuildFile; productRef = AFDCDB822E4F83D300716E8B /* SUIRouting */; };
 		AFDF76EF2C930279005EECF3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF76EE2C930279005EECF3 /* AppCoordinator.swift */; };
 		AFDF76F12C93039F005EECF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF76F02C93039F005EECF3 /* SceneDelegate.swift */; };
 		AFDF76F32C9306ED005EECF3 /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF76F22C9306ED005EECF3 /* AppCoordinatorView.swift */; };
@@ -51,6 +52,7 @@
 				AFD0EAD52C92293800BA3991 /* Kingfisher in Frameworks */,
 				AFC478332C934A9A00DAC70E /* BrandRemoteImage in Frameworks */,
 				AFC4783C2C934B1D00DAC70E /* BrandUseCase in Frameworks */,
+				AFDCDB832E4F83D300716E8B /* SUIRouting in Frameworks */,
 				AFC4782D2C934A2A00DAC70E /* NetworkLayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +134,7 @@
 				AFC4783F2C934E6900DAC70E /* AppDependencyModule */,
 				AFC478412C934F5D00DAC70E /* BrandDetailsFeature */,
 				AF48EFFB2C93842C00A07AAA /* ProductDetailsFeature */,
+				AFDCDB822E4F83D300716E8B /* SUIRouting */,
 			);
 			productName = SallaChallenges;
 			productReference = AFD0EAA02C90FCBD00BA3991 /* SallaChallenges.app */;
@@ -172,6 +175,7 @@
 				AFC4783D2C934B7F00DAC70E /* XCRemoteSwiftPackageReference "BrandDetailsFeature" */,
 				AFC4783E2C934E6900DAC70E /* XCRemoteSwiftPackageReference "AppDependencyModule" */,
 				AF48EFFA2C93842C00A07AAA /* XCRemoteSwiftPackageReference "ProductDetailsFeature" */,
+				AFDCDB812E4F83D300716E8B /* XCRemoteSwiftPackageReference "SUIRouting" */,
 			);
 			productRefGroup = AFD0EAA12C90FCBD00BA3991 /* Products */;
 			projectDirPath = "";
@@ -505,6 +509,14 @@
 				minimumVersion = 7.12.0;
 			};
 		};
+		AFDCDB812E4F83D300716E8B /* XCRemoteSwiftPackageReference "SUIRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/obadasemary/SUIRouting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -557,6 +569,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AFD0EAD32C92293800BA3991 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		AFDCDB822E4F83D300716E8B /* SUIRouting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFDCDB812E4F83D300716E8B /* XCRemoteSwiftPackageReference "SUIRouting" */;
+			productName = SUIRouting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -1,5 +1,5 @@
 {
-  "originHash" : "dfdf49248f42ad0ea55a15d879a8cb63351890527a2a360418c443763950b710",
+  "originHash" : "e86c9d4bfbc871563b65e13cb0309b51ced46ef7ffeed3204ecf35b971693696",
   "pins" : [
     {
       "identity" : "appdependencymodule",
@@ -89,6 +89,15 @@
       "state" : {
         "revision" : "44acc40ad78920e7230641ca16dc39067d53c812",
         "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "suirouting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/obadasemary/SUIRouting.git",
+      "state" : {
+        "revision" : "d9ca0e7fad40aa875ec72104a4af80f3655dfe9d",
+        "version" : "1.0.6"
       }
     }
   ],
