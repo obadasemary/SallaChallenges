@@ -81,6 +81,10 @@ cd SallaChallenges
 - Open the project workspace
 - Build and run the project on your simulator or device
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 # Conclusion
 
 By isolating each component into **Swift Packages**, we ensure that the codebase is modular, scalable, and easy to test. Each package can evolve independently, ensuring flexibility in the face of future requirements. The **Clean Architecture** pattern guarantees a long-lasting, maintainable project that adheres to the **SOLID principles** of software design.
